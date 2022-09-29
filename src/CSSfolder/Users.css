@@ -1,0 +1,67 @@
+.card{
+   transition:all 0.3s ease-in-out 0.3s;
+}
+.card:hover
+{
+    background-color: #bbcfef;
+    box-shadow: 0px 0px 10px;
+    border:1px solid black;
+    width:150%;
+}
+
+.heading
+{
+    position: relative;
+    top: 56px;
+    display: flex;
+    justify-content: space-around;
+    height: 62px;
+}
+
+
+.uppersearches
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control
+{
+    width: 228%;
+}
+
+.searchbtn
+{
+    scale: 136%;
+    /* box-shadow: 0px 0px 17px #665959; */
+    /* background-color: #d6b5ea; */
+    border-radius: 9px;
+    width: 132px;
+    /* opacity: 45%; */
+    /* text-indent: 33px; */
+    background-color: #b8c0ed;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    box-sizing: border-box;
+}
+
+
+.form-input{
+    text-indent: 0px!important;
+}
+
+.ifnofound
+{
+    font-size: 100px;
+}
+
+.ifnofound
+{
+    position: relative;
+    top: 105px;
+    left: 80px;
+}

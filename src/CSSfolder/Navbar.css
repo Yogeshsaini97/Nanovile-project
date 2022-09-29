@@ -1,0 +1,44 @@
+.uppernav
+{
+    background-color:#666e7e;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    
+}
+.innernav
+{
+    
+    height: 52px;
+    color: white;
+}
+.innernav ul{
+    list-style: none;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: auto;
+   
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    align-items: center;
+
+
+
+}
+
+/* .innernav ul li{
+    margin: 11px 0px 0px -237px;
+} */
+
+
+.innernav ul li:hover
+{
+    color:orangered;
+}
+
+
+
